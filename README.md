@@ -56,8 +56,10 @@ Run the development server:
 
 npm run dev
 Open http://localhost:3000 to view it in the browser.
+```
 
-Live Demo
+---
+
+### **Live Demo**
 
 You can view the deployed version [here](https://what-bytes-assignment-c63e.vercel.app/skill-test).
-```
