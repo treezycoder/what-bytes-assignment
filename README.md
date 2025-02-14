@@ -17,7 +17,7 @@ This project is a responsive dashboard built using **Next.js** and **Tailwind CS
 
 ## **Project Structure**
 
-````plaintext
+```plaintext
 ├── public               // Contains images and icons
 └── src
     ├── app              // Pages, global styles, and layouts
@@ -29,7 +29,10 @@ This project is a responsive dashboard built using **Next.js** and **Tailwind CS
     └── utils            // Helper and reusable functions
 --
 
+```
+
 ## **Key Features**
+
 - **Responsive Design**: Fully responsive UI, with "Skill-wise" and "Question Analysis" sections adapting seamlessly on different screen sizes.
 - **Dynamic Data Visualization**: Implemented using Recharts for interactive graphs.
 - **Global State Management**: Efficiently managed with React Context API.
@@ -39,7 +42,9 @@ This project is a responsive dashboard built using **Next.js** and **Tailwind CS
 ---
 
 ## **Installation and Setup**
+
 Clone the repository:
+
 ```bash
 git clone https://github.com/treezycoder/what-bytes-assignment.git
 cd what-bytes-assignment
@@ -53,5 +58,6 @@ npm run dev
 Open http://localhost:3000 to view it in the browser.
 
 Live Demo
-You can view the deployed version here.
-````
+
+You can view the deployed version [here](https://what-bytes-assignment-c63e.vercel.app/skill-test).
+```
