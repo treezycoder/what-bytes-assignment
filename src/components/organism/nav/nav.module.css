@@ -1,0 +1,9 @@
+.icon svg,
+.icon path {
+  @apply fill-gray-500;
+}
+
+.icon.active svg,
+.icon.active path {
+  @apply fill-blue-500;
+}

@@ -1,0 +1,11 @@
+.cardTitle {
+  @apply text-sm text-black font-bold capitalize;
+}
+
+.cardParagraph {
+  @apply text-sm text-gray-700;
+}
+
+.emojiContainer {
+  @apply size-10 min-w-10 flex-shrink-0 flex justify-center items-center rounded-full bg-gray-100;
+}

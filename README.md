@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Project Title: Internship Assignment - Dashboard Analysis
+This project is a responsive dashboard built using Next.js and Tailwind CSS, designed to showcase "Skill-wise" and "Question Analysis" sections with dynamic data visualization. The project meets the requirements for an internship assignment, leveraging modern web technologies for optimal performance and maintainability.
 
-## Getting Started
+Tech Stack and Dependencies
+Next.js (App Router): For routing and page management with static and server-side rendering for fast load times.
+TypeScript: Ensures type safety and enhanced development experience.
+Tailwind CSS: Used for styling with a fully responsive design.
+CSS Modules: Applied for global reusable styles.
+Recharts: Utilized for dynamic percentile graph visualizations.
+React Context API: Manages global state effectively.
 
-First, run the development server:
+Project Structure
 
-```bash
+├── public // Contains images and icons
+└── src
+├── app // Pages, global styles, and layouts
+├── components // Follows Atomic Design for maintainability and reusability
+├── context // Manages global state
+├── data // Contains dummy data
+├── styles // Reusable global styles
+├── types // Global TypeScript types
+└── utils // Helper and reusable functions
+
+Key Features
+Responsive Design: Fully responsive UI, with "Skill-wise" and "Question Analysis" sections adapting seamlessly on different screen sizes.
+Dynamic Data Visualization: Implemented using Recharts for interactive graphs.
+Global State Management: Efficiently managed with React Context API.
+Enhanced Performance: Static and server-side rendering for fast loading times.
+Smooth Transitions: Applied for better user experience.
+
+Installation and Setup
+Clone the repository:
+
+git clone https://github.com/treezycoder/repo-name.git
+cd repo-name
+
+Install dependencies:
+
+npm install
+Run the development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open http://localhost:3000 to view it in the browser.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Live Demo
+You can view the deployed version here.
