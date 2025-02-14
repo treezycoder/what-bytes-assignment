@@ -31,7 +31,7 @@ Smooth Transitions: Applied for better user experience.
 Installation and Setup
 Clone the repository:
 
-git clone https://github.com/treezycoder/repo-name.git
+git clone https://github.com/treezycoder/what-bytes-assignment.git;
 cd repo-name
 
 Install dependencies:
@@ -43,4 +43,5 @@ npm run dev
 Open http://localhost:3000 to view it in the browser.
 
 Live Demo
-You can view the deployed version here.
+You can view the deployed version [here](https://example.com).
+.
